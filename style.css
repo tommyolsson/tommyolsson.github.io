@@ -8,7 +8,7 @@ body {
 h1 {
   color: #FFF;
   font-family: 'Roboto', sans-serif;
-  font-size: 65px;
+  font-size: 60px;
   font-weight: 300;
   line-height: 60px;
   margin: 0;
@@ -34,6 +34,12 @@ p {
   width: 60%;
 }
 
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 .value-box {
   margin: 20px auto;
