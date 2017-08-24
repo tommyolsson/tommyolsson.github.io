@@ -57,3 +57,8 @@ p {
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
 }
+
+.nolinebreak {
+  /* Keeps lines from breaking */
+  white-space: nowrap;
+}
