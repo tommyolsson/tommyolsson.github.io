@@ -36,8 +36,9 @@ p {
 
 
 .value-box {
-  margin: 20px auto;
-  width: 40%;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
 }
 
 .box {
