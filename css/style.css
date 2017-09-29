@@ -1,23 +1,22 @@
 body {
-  background-color: rgb(86,18,46);
+  background-color: rgb(255,255,255);
   margin: 0;
   padding: 0;
 }
 
 
 h1 {
-  color: #FFF;
+  color: rgb(51,51,51);
   font-family: 'Roboto', sans-serif;
-  font-size: 60px;
-  font-weight: 300;
-  line-height: 60px;
-  margin: 0;
+  font-size: 35px;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
-h2 {
+h2, h2, h3, h4, h5, h6 {
   color: #FFF;
   font-family: 'Roboto', sans-serif;
-  text-align: center;
   font-size: 28px;
   font-weight: 100;
 }
@@ -27,42 +26,19 @@ p {
   color: black;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  font-weight: 100;
   line-height: 24px;
-  margin: 0 auto;
-  text-align: center;
-  width: 60%;
+  margin-bottom: 25px;
+
 }
 
 .centered {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.main-box {
-  margin: 10px auto;
-  width: 110%;
-}
-
-.box {
-  border: 4px solid #FFF;
-  padding: 20px 0px;
-  margin: 5px 0px;
-  text-align: center;
-}
-
-
-.nolinebreak {
-  /* Keeps lines from breaking */
-  white-space: nowrap;
+    text-align: center;
 }
 
 
 /* Links */
 a {
-    color: #1abc9c;
+    color: #56122e;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -104,13 +80,13 @@ a:after {
 }
 
 .navbar-inverse {
-	padding-bottom: 70px;
-	padding-top: 70px;
+	padding-bottom: 35px;
+	padding-top: 35px;
 }
 
 .navbar-inverse {
-	background-color: #1abc9c;
-	border-color: #16a085;
+	background-color: #56122e;
+	border-color: #4f0b26;
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -118,7 +94,7 @@ a:after {
 }
 
 .navbar-inverse .navbar-nav > li > a:hover {
-	color: #222222;
+	color: #aaaaaa;
 }
 
 .navbar-brand {
@@ -136,8 +112,9 @@ a:after {
 }
 
 .progress-bar-theme {
-  background-color: #1abc9c;
+  background-color: #56122e;
 }
+
 
 /* About/body section */
 #about {
@@ -155,18 +132,18 @@ a:after {
 
 }
 
-/* footer section */
-#footer {
+/* contact section */
+#contact {
 	background-color: #2f2f2f;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
 
-#footer p {
+#contact p {
 	color: white;
 }
 
-#footer h4 {
+#contact h4 {
 	color: white;
 	text-transform: uppercase;
 	padding-bottom: 20px;
@@ -183,4 +160,30 @@ a:after {
 .pt {
 	padding-top: 50px;
 	padding-bottom: 50px;
+}
+
+/* Go to top-button */
+#topButton {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 20px;
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 35px; /* Rounded corners */
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#topButton:hover {
+    background-color: rgba(85, 85, 85, 0.9); /* Add a dark-grey background on hover */
 }
