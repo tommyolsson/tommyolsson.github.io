@@ -1,0 +1,281 @@
+/* Moves down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 54px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+  h1 {
+    font-weight: 800;
+    line-height: 1.5em;
+    margin: 0 auto;
+}
+
+  h2 {
+  font-weight: 600;
+  line-height: 1.5em;
+  margin: 0 auto;
+
+}
+  p {
+  font-size: 18px;
+  line-height: 1.5em;
+  margin: 0 auto;
+}
+
+.centered {
+    text-align: center;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.vertical-horizontal-align {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* center items vertically */
+  align-items: center;     /* center items horizontally */
+}
+
+/* Links.  */
+a {
+    color: #FFBC19;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: white; /* Överväg om denna behövs. vill bara att det ska understruka */
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+/* Navbar Section */
+.navbar-custom {
+    background-color: #4A0A17;
+    border-color: #4A0A17;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #FFBC19;
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: #FFBC19;
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+}
+
+.navbar-brand {
+	font-weight: 700;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+
+/* header section */
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+header.masthead {
+    background: url('../img/exempel1.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+header.masthead > .overlay {
+    padding: 5rem 0;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+@media (min-width: 992px) {
+    header.masthead > .overlay {
+        padding: 10rem 0;
+    }
+}
+
+/* about section */
+#about {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #FFF;
+
+}
+
+
+/* menu section */
+#menu {
+	background-color: #f2f2f2;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+/* booking section */
+#booking {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #FFF;
+
+}
+
+#booking a {
+  color: black;
+  font-size: 1em;
+  text-transform: lowercase;
+}
+
+#booking a:hover,
+#booking a:focus {
+    text-decoration: none;
+    color: #FFBC19;
+    outline: 0;
+}
+
+
+
+/* opening hours section */
+#open {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #f2f2f2;
+
+}
+
+
+
+/* visit us section */
+#visit {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #FFF;
+
+}
+#visit h2 {
+  font-weight: 600;
+  line-height: 1.5em;
+  margin: 0 auto;
+
+}
+
+#visit p {
+  font-size: 22px;
+  line-height: 1.5em;
+  margin: 0 auto;
+}
+
+
+/* contact section */
+#contact {
+	background-color: #2f2f2f;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#contact h2 {
+	color: white;
+	text-transform: lowercase;
+
+}
+
+#contact p {
+	color: white;
+  display: inline-block;
+  font-size: 1.5em;
+}
+
+#contact a {
+  color: white;
+  font-size: 1em;
+  text-transform: lowercase;
+}
+
+#contact a:hover,
+#contact a:focus {
+    text-decoration: none;
+    color: #FFBC19;
+    outline: 0;
+}
+
+
+
+/* Go to top-button */
+#topButton {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 20px;
+    z-index: 99; /* Make sure it does not overlap */
+    text-align: center;
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 5px; /* Some padding */
+    border-radius: 50%; /* Rounded corners */
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#topButton:hover {
+    background-color: rgba(85, 85, 85, 0.9); /* Add a dark-grey background on hover */
+}
+
+
+/* Making image greyscaled and recolors when hovering */
+img.grayscale {
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+  /* Firefox 3.5+, IE10 */
+  filter: gray;
+  /* IE6-9 */
+  -webkit-filter: grayscale(100%);
+  /* Chrome 19+ & Safari 6+ */
+  -webkit-transition: all .6s ease;
+  /* Fade to color for Chrome and Safari */
+  -webkit-backface-visibility: hidden;
+  /* Fix for transition flickering */
+}
+
+img.grayscale:hover {
+  filter: none;
+  -webkit-filter: grayscale(0%);
+}
