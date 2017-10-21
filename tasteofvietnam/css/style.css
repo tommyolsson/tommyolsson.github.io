@@ -1,24 +1,24 @@
 /* Moves down content because we have a fixed navbar that is 50px tall */
 body {
   padding-top: 54px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
-  h1 {
+h1 {
     font-weight: 800;
     line-height: 1.5em;
     margin: 0 auto;
 }
 
-  h2 {
+h2 {
   font-weight: 600;
   line-height: 1.5em;
   margin: 0 auto;
 
 }
-  p {
+p {
   font-size: 18px;
   line-height: 1.5em;
   margin: 0 auto;
@@ -100,7 +100,6 @@ a:after {
 	letter-spacing: 2px;
 }
 
-
 /* header section */
 
 @media (min-width: 992px) {
@@ -141,8 +140,71 @@ header.masthead > .overlay {
 /* menu section */
 #menu {
 	background-color: #f2f2f2;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#menu h2 {
+  font-weight: 600;
+  line-height: 1.5em;
+  margin: 0 auto;
+
+}
+
+#menu p {
+  font-size: 18px;
+  line-height: 1.5em;
+  margin: 0 auto;
+}
+
+#menu a {
+  color: black;
+}
+
+#menu a:hover,
+#menu a:focus {
+    color: #FFBC19;
+}
+
+.nav-tabs > li > a {
+  border-radius: 4px 4px 0 0 ;
+  font-weight: bold;
+}
+
+.tab-content {
+  background-color: white;
+  padding : 5px 15px;
+}
+
+
+.menu-section-title {
+  display: block;
+  font-weight:normal;
+  margin: 20px 0;
+  text-align: left;
+}
+
+.menu-item {
+  margin: 35px 0;
+  font-size: 18px;
+}
+
+.menu-item-name{
+  font-family: helvetica; /* Behöver undersökas vilken font som passar. Vietnamesiska bokstäver fungerade ej med Raleway */
+  font-weight: bold;
+  border-bottom: 2px dotted rgb(213, 213, 213);
+}
+
+.menu-item-description {
+  font-style: italic;
+  font-size: .9em;
+  line-height: 1.5em;
+}
+
+.menu-item-price{
+  float: right;
+  font-weight: bold;
+  margin-top: -22px;
 }
 
 /* booking section */

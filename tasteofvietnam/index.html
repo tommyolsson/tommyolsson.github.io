@@ -3,15 +3,16 @@
 
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico"/>
 
     <!-- Imports font Source Sans -->
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
     <title>Taste of Vietnam - Vietnamesisk restaurang</title>
 
@@ -22,10 +23,10 @@
     <link href="css/style.css" rel="stylesheet">
 
     <!-- CSS for the carousel. For some reason jquery has to be activated here. Investigate why -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <script src="js/jquery.min.js"></script>
-
 
     <!-- Creates a go to top button !-->
     <button onclick="topFunction()" id="topButton" title="Go to top">&nbsp;&nbsp;<font size="1">&#9650;</font>&nbsp;&nbsp;</button>
@@ -75,7 +76,7 @@
         <h1>Xin chào!</h1>
         <p>
 
-Taste of Vietnam erbjuder äkta Vietnamesisk mat med fräsch smak i en skön och harmonisk atmosfär, där hälsa och miljö är viktigt för oss. Därför väljer vi alltid de bästa och fräschaste råvarorna för all våran mat! Menyn vi erbjuder är hälsosam och nästan helt fri från gluten och laktos. Vi har även många vegetariska rätter.
+Taste of Vietnam erbjuder äkta Vietnamesisk mat med fräsch smak i en skön och harmonisk atmosfär där hälsa och miljö är viktigt för oss. Därför väljer vi alltid de bästa och fräschaste råvarorna för all våran mat! Menyn vi erbjuder är hälsosam och nästan helt fri från gluten och laktos. Vi har även många vegetariska rätter.
 </p><p><br>Välkommen till oss för en exotisk smakupplevelse. Vi har en prisvärd lunch med varierande rätter där det ingår salladsbuffé, fräsch limejuice, kaffe/te mm. Till middag har vi en meny med de allra bästa traditionella rätterna från Vietnam. Vill man bara njuta av ett glas öl med lite tilltugg eller en av våra drinkar så är man välkommen att ta en plats i våran bar. För alla kunder som vill hämta mat och äta hemma/kontoret har vi take-away på alla rätter. Våra gäster är viktiga för oss, därför strävar vi alltid efter att ge den bästa servicen och den godaste maten!
 </p>
 
@@ -146,26 +147,364 @@ Taste of Vietnam erbjuder äkta Vietnamesisk mat med fräsch smak i en skön och
 </section>
 </div>
 <!-- Menu section -->
+            <section id="menu" class="menu">
+                <div class="container">
+                    <header class="text-center">
+                        <h2>Meny</h2>
+                        <p>Här finner ni våra olika menyer, lunchmeny samt a la cartemeny. Det går också bra att beställa för takeaway.</p>
+                    </header>
 
-  <section id="menu">
-     <div class="container">
-      <div class="row">
+                    <div class="menu">
+                        <!-- Tabs Navigatin -->
 
-        <div class="col-md-6">
-          <h2>Lunch</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut dui sit amet elit condimentum cursus. Pellentesque aliquet egestas risus, ac auctor enim tempus facilisis. Sed rutrum ornare interdum. Duis dapibus feugiat tempus.</p>
-       </div><!-- /col-md-6 -->
+  <!-- Nav tabs -->
+<br>
+<!-- Nav tabs -->
+<ul class="nav nav-tabs nav-justified" role="tablist">
+    <li class="nav-item">
+        <a class="nav-link active" data-toggle="tab" href="#lunch" role="tab"><i class="fa fa-user"></i>Lunch</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#middag" role="tab"><i class="fa fa-heart"></i>Middag</a>
+    </li>
+
+</ul>
+<!-- Tab panels -->
+<div class="tab-content">
+    <!--Panel 1-->
+    <div class="tab-pane fade in show active" id="lunch" role="tabpanel">
+        <br>
+        <p>Lunch gäller vardagar mellan kl 11:30 - 14.30. Vi har varierande rätter varje dag och till lunchen igår sallad, bröd, måltidsdryck och kaffe.</p>
+
+        <div class="row">
+        <!-- Left pane -->
+        <div class="col-sm-6">
+
+          <!-- Item starts -->
+          <div class="menu-item">
+            <div class=menu-item-name>
+              Phở
+              </div>
+                <div class="menu-item-description">
+                Traditionell vietnamesisk nudelsoppa med kyckling eller biff
+              </div>
+              <div class=menu-item-price>
+                98:-
+              </div>
+            </div>
+            <!-- Item ends -->
+
+            <!-- Item starts -->
+            <div class="menu-item">
+              <div class=menu-item-name>
+                Bún bò Nam bộ
+                </div>
+                  <div class="menu-item-description">
+                  Nudelsallad med biff
+                </div>
+                <div class=menu-item-price>
+                  89:-
+                </div>
+              </div>
+              <!-- Item ends -->
+
+              <!-- Item starts -->
+              <div class="menu-item">
+                <div class=menu-item-name>
+                  Đậu hũ nón xào nấm
+                  </div>
+                    <div class="menu-item-description">
+                    Wokad tofu med svamp. Serveras med ris
+                  </div>
+                  <div class=menu-item-price>
+                    85:-
+                  </div>
+                </div>
+                <!-- Item ends -->
+
+       </div><!-- /Left pane -->
 
 
-       <div class="col-md-6">
-        <h2>Middag</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut dui sit amet elit condimentum cursus. Pellentesque aliquet egestas risus, ac auctor enim tempus facilisis. Sed rutrum ornare interdum. Duis dapibus feugiat tempus.</p>
+       <!-- Right pane -->
+       <div class="col-sm-6">
+
+         <!-- Item starts -->
+         <div class="menu-item">
+           <div class=menu-item-name>
+             Bún thịt nướng
+             </div>
+               <div class="menu-item-description">
+               Grillad fläskkarré. Serveras med nudlar, sallad & fisksås
+             </div>
+             <div class=menu-item-price>
+               98:-
+             </div>
+           </div>
+           <!-- Item ends -->
+
+           <!-- Item starts -->
+           <div class="menu-item">
+             <div class=menu-item-name>
+               Nem rán hoặc gỏi cuốn
+               </div>
+                 <div class="menu-item-description">
+                 Friterade eller färska vårrullar med räkor, kyckling eller tofu
+               </div>
+               <div class=menu-item-price>
+                 89:-
+               </div>
+             </div>
+             <!-- Item ends -->
+
+             <!-- Item starts -->
+             <div class="menu-item">
+               <div class=menu-item-name>
+                 Cà tím xào giá
+                 </div>
+                   <div class="menu-item-description">
+                   Wokad aubergin med grönsaker. Serveras med ris
+                 </div>
+                 <div class=menu-item-price>
+                   85:-
+                 </div>
+               </div>
+               <!-- Item ends -->
+
       </div><!-- /col-md-6 !-->
+      </div>
+    </div>
+    <!--/.Panel 1-->
 
-      </div><!-- /row -->
-     </div> <!-- /container -->
 
-  </section> <!--  /menu  -->
+
+    <!--Panel 2-->
+    <div class="tab-pane fade" id="middag" role="middag">
+        <br>
+        <div class="row">
+        <!-- Left pane -->
+        <div class="col-sm-6">
+
+          <h3 class="menu-section-title">Smårätter</h3>
+
+          <!-- Item starts -->
+          <div class="menu-item">
+            <div class=menu-item-name>
+              Phở
+              </div>
+                <div class="menu-item-description">
+                Traditionell vietnamesisk nudelsoppa med kyckling eller biff
+              </div>
+              <div class=menu-item-price>
+                98:-
+              </div>
+            </div>
+            <!-- Item ends -->
+
+            <!-- Item starts -->
+            <div class="menu-item">
+              <div class=menu-item-name>
+                Phở
+                </div>
+                  <div class="menu-item-description">
+                  Traditionell vietnamesisk nudelsoppa med kyckling eller biff
+                </div>
+                <div class=menu-item-price>
+                  98:-
+                </div>
+              </div>
+              <!-- Item ends -->
+              <!-- Item starts -->
+              <div class="menu-item">
+                <div class=menu-item-name>
+                  Phở
+                  </div>
+                    <div class="menu-item-description">
+                    Traditionell vietnamesisk nudelsoppa med kyckling eller biff
+                  </div>
+                  <div class=menu-item-price>
+                    98:-
+                  </div>
+                </div>
+                <!-- Item ends -->
+
+            <h3 class="menu-section-title">Nudelrätter</h3>
+
+                <!-- Item starts -->
+                <div class="menu-item">
+                  <div class=menu-item-name>
+                    Phở
+                    </div>
+                      <div class="menu-item-description">
+                      Traditionell vietnamesisk nudelsoppa med kyckling eller biff
+                    </div>
+                    <div class=menu-item-price>
+                      98:-
+                    </div>
+                  </div>
+                  <!-- Item ends -->
+
+                  <!-- Item starts -->
+                  <div class="menu-item">
+                    <div class=menu-item-name>
+                      Phở
+                      </div>
+                        <div class="menu-item-description">
+                        Traditionell vietnamesisk nudelsoppa med kyckling eller biff
+                      </div>
+                      <div class=menu-item-price>
+                        98:-
+                      </div>
+                    </div>
+                    <!-- Item ends -->
+
+            <h3 class="menu-section-title">Friterat & grillat</h3>
+
+                    <!-- Item starts -->
+                    <div class="menu-item">
+                      <div class=menu-item-name>
+                        Phở
+                        </div>
+                          <div class="menu-item-description">
+                          Traditionell vietnamesisk nudelsoppa med kyckling eller biff
+                        </div>
+                        <div class=menu-item-price>
+                          98:-
+                        </div>
+                      </div>
+                      <!-- Item ends -->
+                      <!-- Item starts -->
+                      <div class="menu-item">
+                        <div class=menu-item-name>
+                          Phở
+                          </div>
+                            <div class="menu-item-description">
+                            Traditionell vietnamesisk nudelsoppa med kyckling eller biff
+                          </div>
+                          <div class=menu-item-price>
+                            98:-
+                          </div>
+                        </div>
+                        <!-- Item ends -->
+
+       </div><!-- /Left pane -->
+
+
+       <!-- Right pane -->
+       <div class="col-sm-6">
+
+          <h3 class="menu-section-title">Populära rätter</h3>
+
+         <!-- Item starts -->
+         <div class="menu-item">
+           <div class=menu-item-name>
+             Phở
+             </div>
+               <div class="menu-item-description">
+               Traditionell vietnamesisk nudelsoppa med kyckling eller biff
+             </div>
+             <div class=menu-item-price>
+               98:-
+             </div>
+           </div>
+           <!-- Item ends -->
+
+           <!-- Item starts -->
+           <div class="menu-item">
+             <div class=menu-item-name>
+               Phở
+               </div>
+                 <div class="menu-item-description">
+                 Traditionell vietnamesisk nudelsoppa med kyckling eller biff
+               </div>
+               <div class=menu-item-price>
+                 98:-
+               </div>
+             </div>
+             <!-- Item ends -->
+             <!-- Item starts -->
+             <div class="menu-item">
+               <div class=menu-item-name>
+                 Phở
+                 </div>
+                   <div class="menu-item-description">
+                   Traditionell vietnamesisk nudelsoppa med kyckling eller biff
+                 </div>
+                 <div class=menu-item-price>
+                   98:-
+                 </div>
+               </div>
+               <!-- Item ends -->
+
+               <!-- Item starts -->
+               <div class="menu-item">
+                 <div class=menu-item-name>
+                   Phở
+                   </div>
+                     <div class="menu-item-description">
+                     Traditionell vietnamesisk nudelsoppa med kyckling eller biff
+                   </div>
+                   <div class=menu-item-price>
+                     98:-
+                   </div>
+                 </div>
+                 <!-- Item ends -->
+
+                  <h3 class="menu-section-title">Wokade rätter</h3>
+
+                 <!-- Item starts -->
+                 <div class="menu-item">
+                   <div class=menu-item-name>
+                     Phở
+                     </div>
+                       <div class="menu-item-description">
+                       Traditionell vietnamesisk nudelsoppa med kyckling eller biff
+                     </div>
+                     <div class=menu-item-price>
+                       98:-
+                     </div>
+                   </div>
+                   <!-- Item ends -->
+                   <!-- Item starts -->
+                   <div class="menu-item">
+                     <div class=menu-item-name>
+                       Phở
+                       </div>
+                         <div class="menu-item-description">
+                         Traditionell vietnamesisk nudelsoppa med kyckling eller biff
+                       </div>
+                       <div class=menu-item-price>
+                         98:-
+                       </div>
+                     </div>
+                     <!-- Item ends -->
+                     <!-- Item starts -->
+                     <div class="menu-item">
+                       <div class=menu-item-name>
+                         Phở
+                         </div>
+                           <div class="menu-item-description">
+                           Traditionell vietnamesisk nudelsoppa med kyckling eller biff
+                         </div>
+                         <div class=menu-item-price>
+                           98:-
+                         </div>
+                       </div>
+                       <!-- Item ends -->
+
+      </div><!-- /col-md-6 !-->
+      </div>
+    </div>
+    <!--/.Panel 2-->
+</div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Menu Section -->
+
 
 
 <!-- Booking section -->
@@ -176,7 +515,7 @@ Taste of Vietnam erbjuder äkta Vietnamesisk mat med fräsch smak i en skön och
 
         <div class="col-md-12 centered">
           <h2>Boka bord</h2>
-          <p>Boka gör ni enklast online. Det går också bra genom att ringa <a href="tel:086427450">08-6427450</a> eller genom att skicka en förfrågan på e-post: <a href="mailto:info@tasteofvietnam.se" target="_top">info@tasteofvietnam.se</a></p>
+          <p>Bokning av bord görs enklast online men det går också bra över telefon genom att ringa <a href="tel:086427450">08-6427450</a> eller genom att skicka en förfrågan på e-post: <a href="mailto:info@tasteofvietnam.se" target="_top">info@tasteofvietnam.se</a></p>
             <br>
           <div class="item">
             <img src="img/bokningexempel1.jpg">
@@ -238,7 +577,7 @@ Taste of Vietnam erbjuder äkta Vietnamesisk mat med fräsch smak i en skön och
     <section id="contact">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12 centered">
+          <div class="col-md-12 centered">
             <p><a href="mailto:info@tasteofvietnam.se" target="_top">info@tasteofvietnam.se</a></p>  &ensp;
             <p><span>|</span></p>&ensp;
             <p><a href="tel:086427450">08-6427450</a></p> &ensp;
@@ -256,12 +595,14 @@ Taste of Vietnam erbjuder äkta Vietnamesisk mat med fräsch smak i en skön och
     <script src="js/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
     <script src="js/bootstrap.min.js"></script>
+
+    <!-- Runs owl carousel -->
     <script src="js/owl.carousel.js"></script>
-    <!-- Runs smooth scrolls for anchor jumping !-->
-    <script src="js/smoothScroll.js"></script>
     <!-- Runs go to top button !-->
     <script src="js/goToTop.js"></script>
 
+    <!-- Runs smooth scrolls for anchor jumping. Outcommented because it ruins nav tabs!-->
+    <!-- <script src="js/smoothScroll.js"></script> -->
 
   </body>
 </html>
