@@ -1,0 +1,87 @@
+<manifest alg="2" build="2017.0.1.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="klick.kog.com" resolutions="1x,2x" timestamp="1521124747974">
+  <folder name="css">
+    <file name="site_global.css" crc="443350757"/>
+    <file name="master_a-master.css" crc="47037574" ref="4-ladd-sms:4-ladd-blipp:index:4-park-error:2-ladd:4-park-blipp:2-park:1:4-park-sms:3-park:3-ladd:4-ladd-error"/>
+    <file name="master_b-master.css" crc="4165035381" ref="laddar-1:parkerad-laddar-inte:kvitto:utcheck:laddar-2:0:laddar-3"/>
+    <file name="4-ladd-sms.css" crc="4283398011" ref="4-ladd-sms"/>
+    <file name="4-ladd-blipp.css" crc="3939588752" ref="4-ladd-blipp"/>
+    <file name="laddar-1.css" crc="4008103216" ref="laddar-1"/>
+    <file name="index.css" crc="310173127" ref="index"/>
+    <file name="4-park-error.css" crc="3907778883" ref="4-park-error"/>
+    <file name="2-ladd.css" crc="213221594" ref="2-ladd"/>
+    <file name="parkerad-laddar-inte.css" crc="4241050446" ref="parkerad-laddar-inte"/>
+    <file name="4-park-blipp.css" crc="3821964092" ref="4-park-blipp"/>
+    <file name="2-park.css" crc="328345742" ref="2-park"/>
+    <file name="kvitto.css" crc="163789598" ref="kvitto"/>
+    <file name="1.css" crc="3890444370" ref="1"/>
+    <file name="utcheck.css" crc="4103942376" ref="utcheck"/>
+    <file name="4-park-sms.css" crc="3816131589" ref="4-park-sms"/>
+    <file name="3-park.css" crc="4035820270" ref="3-park"/>
+    <file name="3-ladd.css" crc="306319412" ref="3-ladd"/>
+    <file name="4-ladd-error.css" crc="269950688" ref="4-ladd-error"/>
+    <file name="laddar-2.css" crc="4207615168" ref="laddar-2"/>
+    <file name="0.css" crc="3816622315" ref="0"/>
+    <file name="laddar-3.css" crc="3777665699" ref="laddar-3"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="1:2-park:2-ladd:3-ladd:3-park:4-ladd-error:4-ladd-sms:4-park-error:4-park-blipp:4-park-sms:4-ladd-blipp:0:index:utcheck:laddar-1:laddar-2:laddar-3:parkerad-laddar-inte:kvitto"/>
+    <file name="museutils.js" crc="4148063285" ref="1:2-park:2-ladd:3-ladd:3-park:4-ladd-error:4-ladd-sms:4-park-error:4-park-blipp:4-park-sms:4-ladd-blipp:0:index:utcheck:laddar-1:laddar-2:laddar-3:parkerad-laddar-inte:kvitto"/>
+    <file name="whatinput.js" crc="86476730" ref="1:2-park:2-ladd:3-ladd:3-park:4-ladd-error:4-ladd-sms:4-park-error:4-park-blipp:4-park-sms:4-ladd-blipp:0:index:utcheck:laddar-1:laddar-2:laddar-3:parkerad-laddar-inte:kvitto"/>
+    <file name="museconfig.js" crc="172512987" ref="1:2-park:2-ladd:3-ladd:3-park:4-ladd-error:4-ladd-sms:4-park-error:4-park-blipp:4-park-sms:4-ladd-blipp:0:index:utcheck:laddar-1:laddar-2:laddar-3:parkerad-laddar-inte:kvitto"/>
+    <file name="jquery.watch.js" crc="437028206" ref="1:2-park:2-ladd:3-ladd:3-park:4-ladd-error:4-ladd-sms:4-park-error:4-park-blipp:4-park-sms:4-ladd-blipp:0:index:utcheck:laddar-1:laddar-2:laddar-3:parkerad-laddar-inte:kvitto"/>
+    <file name="require.js" crc="4159430777" ref="1:2-park:2-ladd:3-ladd:3-park:4-ladd-error:4-ladd-sms:4-park-error:4-park-blipp:4-park-sms:4-ladd-blipp:0:index:utcheck:laddar-1:laddar-2:laddar-3:parkerad-laddar-inte:kvitto"/>
+  </folder>
+  <folder name="images">
+    <file name="blurrad blog65-11024x768.jpg" crc="528444047" seo="true" ref="1"/>
+    <file name="blurrad blog65-11024x768_2x.jpg" crc="218639643" seo="true" ref="1"/>
+    <file name="skärm 1.png" crc="256995805" seo="true" ref="1"/>
+    <file name="skärm 1_2x.png" crc="3827248825" seo="true" ref="1"/>
+    <file name="skärm 2-1.png" crc="521484916" seo="true" ref="2-park"/>
+    <file name="skärm 2-1_2x.png" crc="362632216" seo="true" ref="2-park"/>
+    <file name="skärm 2-2.png" crc="321337484" seo="true" ref="2-ladd"/>
+    <file name="skärm 2-2_2x.png" crc="103675816" seo="true" ref="2-ladd"/>
+    <file name="skärm 3.png" crc="4257512014" seo="true" ref="3-ladd:3-park"/>
+    <file name="skärm 3_2x.png" crc="4071012892" seo="true" ref="3-ladd:3-park"/>
+    <file name="skärm 4-3.png" crc="194735419" seo="true" ref="4-ladd-error:4-park-error"/>
+    <file name="skärm 4-3_2x.png" crc="4189362489" seo="true" ref="4-ladd-error:4-park-error"/>
+    <file name="skärm 4-2.png" crc="3790686535" seo="true" ref="4-ladd-sms:4-park-sms"/>
+    <file name="skärm 4-2_2x.png" crc="347398890" seo="true" ref="4-ladd-sms:4-park-sms"/>
+    <file name="skärm 4-1.png" crc="493922835" seo="true" ref="4-park-blipp:4-ladd-blipp"/>
+    <file name="skärm 4-1_2x.png" crc="97307065" seo="true" ref="4-park-blipp:4-ladd-blipp"/>
+    <file name="blurrad blog65-1.jpg" crc="3916643829" seo="true" ref="0:utcheck:laddar-1:laddar-2:laddar-3:parkerad-laddar-inte:kvitto"/>
+    <file name="blurrad blog65-1_2x.jpg" crc="4272304758" seo="true" ref="0:utcheck:laddar-1:laddar-2:laddar-3:parkerad-laddar-inte:kvitto"/>
+    <file name="skärm2-1.png" crc="4012964041" seo="true" ref="0"/>
+    <file name="skärm2-1_2x.png" crc="4076271812" seo="true" ref="0"/>
+    <file name="skärm1grön.png" crc="3956576680" seo="true" ref="index"/>
+    <file name="skärm1grön_2x.png" crc="3929590719" seo="true" ref="index"/>
+    <file name="skärm5.png" crc="434670880" seo="true" ref="utcheck"/>
+    <file name="skärm5_2x.png" crc="3991877617" seo="true" ref="utcheck"/>
+    <file name="skärm1blå_1.png" crc="63749564" seo="true" ref="laddar-1"/>
+    <file name="skärm1blå_1_2x.png" crc="4084813422" seo="true" ref="laddar-1"/>
+    <file name="skärm1blå_2.png" crc="4092176990" seo="true" ref="laddar-2:parkerad-laddar-inte"/>
+    <file name="skärm1blå_2_2x.png" crc="3920101717" seo="true" ref="laddar-2:parkerad-laddar-inte"/>
+    <file name="skärm1blå_3.png" crc="3951283387" seo="true" ref="laddar-3"/>
+    <file name="skärm1blå_3_2x.png" crc="3804293547" seo="true" ref="laddar-3"/>
+    <file name="skärm 5.png" crc="4042787895" seo="true" ref="kvitto"/>
+    <file name="skärm 5_2x.png" crc="4069617969" seo="true" ref="kvitto"/>
+  </folder>
+  <file name="1.html" crc="4283141410" seo="true" mt="1521123888761" redirect="true"/>
+  <file name="2-park.html" crc="359632402" seo="true" mt="1521118718494" redirect="true"/>
+  <file name="2-ladd.html" crc="436911031" seo="true" mt="1521118760784" redirect="true"/>
+  <file name="3-ladd.html" crc="3859431412" seo="true" mt="1521124156251" redirect="true"/>
+  <file name="3-park.html" crc="443205404" seo="true" mt="1521124193113" redirect="true"/>
+  <file name="4-ladd-error.html" crc="3989086972" seo="true" mt="1521123413971" redirect="true"/>
+  <file name="4-ladd-sms.html" crc="3979225809" seo="true" mt="1521123326518" redirect="true"/>
+  <file name="4-park-error.html" crc="4086569872" seo="true" mt="1521123227710" redirect="true"/>
+  <file name="4-park-blipp.html" crc="3892293281" seo="true" mt="1521123072808" redirect="true"/>
+  <file name="4-park-sms.html" crc="4230768611" seo="true" mt="1521123136177" redirect="true"/>
+  <file name="4-ladd-blipp.html" crc="3916851308" seo="true" mt="1521123277166" redirect="true"/>
+  <file name="0.html" crc="4015899159" seo="true" mt="1521117291163" redirect="true"/>
+  <file name="index.html" crc="120410464" seo="true" mt="1521123842871" redirect="true"/>
+  <file name="utcheck.html" crc="150927427" seo="true" mt="1521124401397" redirect="true"/>
+  <file name="laddar-1.html" crc="458809540" seo="true" mt="1521123522212" redirect="true"/>
+  <file name="laddar-2.html" crc="47564094" seo="true" mt="1521123552381" redirect="true"/>
+  <file name="laddar-3.html" crc="3932500848" seo="true" mt="1521124363007" redirect="true"/>
+  <file name="parkerad-laddar-inte.html" crc="3914397136" seo="true" mt="1521123465564" redirect="true"/>
+  <file name="kvitto.html" crc="4258488367" seo="true" mt="1521124450738" redirect="true"/>
+</manifest>
